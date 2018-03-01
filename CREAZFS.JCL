@@ -1,10 +1,10 @@
 //CREAZFS JOB 'Alberto',CLASS=A,NOTIFY=&SYSUID,MSGCLASS=H
-/*  AFTER CREATE THE CLUSTER, YOU HAVE TO MOUNT*/
-/* TO HAVE IT NEXT IPL, ADD TO BPXPRM00   */ 
-/*   MOUNT    FILESYSTEM('CUST.ZFS.U') */
-/*         TYPE(ZFS)                   */ 
-/*         MODE(RDWR) NOAUTOMOVE       */            
-/*         MOUNTPOINT('/u')   */
+//*  AFTER CREATE THE CLUSTER, YOU HAVE TO MOUNT*/
+//* TO HAVE IT NEXT IPL, ADD TO BPXPRM00   */
+//*   MOUNT    FILESYSTEM('ROCKET.ZFS') */
+//*         TYPE(ZFS)                   */
+//*         MODE(RDWR) NOAUTOMOVE       */
+//*         MOUNTPOINT('/u')   */
 //ZFSALLOC EXEC PGM=IDCAMS,REGION=0M
 //SYSPRINT DD SYSOUT=*
 //SYSIN    DD *
