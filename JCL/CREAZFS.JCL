@@ -9,7 +9,7 @@
 //SYSPRINT DD SYSOUT=*
 //SYSIN    DD *
     DEFINE CLUSTER( -
-             NAME(ROCKET.ZFS) -
+             NAME(DBB.IBM.ZFS) -
              VOLUME(ZDTNFS) -
              LINEAR -
              CYL(200 100) -
@@ -17,5 +17,5 @@
                   )
 /*
 //ZFSFORMT EXEC PGM=IOEAGFMT,REGION=0M,COND=(0,LT,ZFSALLOC),
-//            PARM='-aggregate ROCKET.ZFS -compat'
+//            PARM='-aggregate DBB.IBM.ZFS -compat'
 //SYSPRINT DD SYSOUT=*
