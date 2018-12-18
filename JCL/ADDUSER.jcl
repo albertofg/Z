@@ -6,7 +6,7 @@
 //* US Government users restricted rights -  Use, duplication or
 //* disclosure restricted by GSA ADP schedule contract with IBM Corp.
 //*
-//* IBM Rational Development and Test Environment for System z
+//* IBM  Development and Test Environment for System z
 //*------------------------------------------------------------------
 //* COMMANDS FOR CREATION OF EMPOTxx TSO USERIDS
 //*-------------------------------------------------------------------
