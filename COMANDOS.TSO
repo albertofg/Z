@@ -1,0 +1,2 @@
+#Añadir APF
+SETPROG APF,ADD,DSNAME=dataset_name,VOLUME=volser

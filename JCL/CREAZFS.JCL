@@ -9,13 +9,13 @@
 //SYSPRINT DD SYSOUT=*
 //SYSIN    DD *
     DEFINE CLUSTER( -
-             NAME(ROCKET.ZFS) -
-             VOLUME(ZDTNFS) -
+             NAME(NODEJS.ZFS) -
+             VOLUME(ZOWE01) -
              LINEAR -
-             CYL(200 100) -
+             CYL(200 200) -
              SHAREOPTIONS(3) -
                   )
 /*
 //ZFSFORMT EXEC PGM=IOEAGFMT,REGION=0M,COND=(0,LT,ZFSALLOC),
-//            PARM='-aggregate ROCKET.ZFS -compat'
+//            PARM='-aggregate NODEJS.ZFS -compat'
 //SYSPRINT DD SYSOUT=*
