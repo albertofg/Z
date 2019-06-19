@@ -9,13 +9,13 @@
 //SYSPRINT DD SYSOUT=*
 //SYSIN    DD *
     DEFINE CLUSTER( -
-             NAME(NODEJS.ZFS) -
-             VOLUME(ZOWE01) -
+             NAME(ZOWE.ZFS) -
+             VOLUME(USER01) -
              LINEAR -
-             CYL(200 200) -
+             CYL(200 400) -
              SHAREOPTIONS(3) -
                   )
 /*
 //ZFSFORMT EXEC PGM=IOEAGFMT,REGION=0M,COND=(0,LT,ZFSALLOC),
-//            PARM='-aggregate NODEJS.ZFS -compat'
+//            PARM='-aggregate ZOWE.ZFS -compat'
 //SYSPRINT DD SYSOUT=*
